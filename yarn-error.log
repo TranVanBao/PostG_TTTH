@@ -1,0 +1,54 @@
+Arguments: 
+  E:\HocLapTrinhweb\Nodejs\node.exe C:\Users\bao.DESKTOP-CFQH7VT\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --save-dev @babel/core @babel/cli @babel/node @babel/plugin-transform-runtime @babel/preset-env @babel/register @babel/runtime babel-loader
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;"D:\Jdk8u\bin;";C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;E:\HocLapTrinhweb\Nodejs\;C:\Program Files\MongoDB\Server\4.0\bin;D:\Visua code\python;D:\xampp\php;C:\composer;C:\Program Files\Git\cmd;C:\Program Files\Heroku\bin;C:\Program Files\PostgreSQL\11\lib;"C:\WINDOWS;C:\WINDOWS\system32;C:\Program Files\PostgreSQL\11\bin";C:\Users\bao.DESKTOP-CFQH7VT\.windows-build-tools\python27\;E:\HocLapTrinhweb\Nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\bao.DESKTOP-CFQH7VT\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\bao.DESKTOP-CFQH7VT\AppData\Roaming\npm\node_modules\.bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;"D:\Jdk8u\bin;";C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;E:\HocLapTrinhweb\Nodejs\;C:\Program Files\MongoDB\Server\4.0\bin;D:\Visua code\python;D:\Visua code\python\Scripts\;D:\Visua code\python\;C:\Users\bao.DESKTOP-CFQH7VT\.windows-build-tools\python27\;E:\HocLapTrinhweb\Nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\bao.DESKTOP-CFQH7VT\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\bao.DESKTOP-CFQH7VT\AppData\Roaming\npm\node_modules\.bin;C:\Users\bao.DESKTOP-CFQH7VT\AppData\Local\Microsoft\WindowsApps;C:\Users\bao.DESKTOP-CFQH7VT\AppData\Roaming\npm;C:\Program Files (x86)\Java\jre7\bin;D:\Visua code\Microsoft VS Code\bin;C:\Users\bao.DESKTOP-CFQH7VT\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.1.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: registry.yarnpkg.com. is not in the cert's altnames: DNS:hs.ptsystem.vn
+      at Object.checkServerIdentity (tls.js:261:12)
+      at TLSSocket.onConnectSecure (_tls_wrap.js:1270:27)
+      at TLSSocket.emit (events.js:196:13)
+      at TLSSocket._finishInit (_tls_wrap.js:737:8)
+      at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:569:12)
+
+npm manifest: 
+  {
+    "name": "PostG_TTTH",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TranVanBao/PostG_TTTH.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/TranVanBao/PostG_TTTH/issues"
+    },
+    "homepage": "https://github.com/TranVanBao/PostG_TTTH#readme",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "express": "^4.17.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
